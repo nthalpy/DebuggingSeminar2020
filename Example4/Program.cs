@@ -47,7 +47,7 @@ namespace Example4
                 // 선물 호감도 만큼 캐릭터 호감도를 올린다.
                 Console.WriteLine($"You gave {targetGift.GiftName} to {targetCharacter.Name}!");
                 targetCharacter.IncreaseFavor(targetGift.FavorDiff);
-             
+
                 // 적당한 게임 종료 조건.
                 if (targetCharacter.Favor > targetFavor)
                     break;
