@@ -2,11 +2,6 @@
 
 namespace Example6
 {
-    internal interface IShape
-    {
-        void Expand(int delta);
-    }
-
     internal static class Program
     {
         private static void Main()
